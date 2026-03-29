@@ -6,3 +6,16 @@ Source code for Athletic Advantage's landing page
 ```
 ./src/lib/config.js
 ```
+## Development
+Install dependencies
+```bash
+npm install
+```
+Start Development server
+```bash
+npm run dev
+```
+## Production Build
+```bash
+npm run build
+```
