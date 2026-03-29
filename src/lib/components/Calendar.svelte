@@ -6,6 +6,6 @@
         <h1 class="text-black font-bold text-xl md:text-2xl lg:text-3xl pt-4">Event Calendar</h1>
     </div>
     <div class="flex items-center justify-center h-full inset-x-0 px-4 pb-8 pt-4 rounded">
-        <iframe class="h-full w-full rounded-md" src={calendar} title="Event Calendar"></iframe>
+        <iframe loading="lazy" class="h-full w-full rounded-md" src={calendar} title="Event Calendar"></iframe>
     </div>
 </div>
