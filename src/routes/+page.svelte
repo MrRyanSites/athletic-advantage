@@ -13,8 +13,8 @@
 <main>
     <Hero title={config.TITLE} cta={config.CTA} />
     <Calendar calendar={config.GOOGLE_CALENDAR} />
-    <About aboutMessage={config.ABOUT_MESSAGE} />
-    <Contact />
+    <About aboutMessage={config.ABOUT_MESSAGE} aboutTitle={config.ABOUT_TITLE} />
+    <Contact form={config.GOOGLE_FORM} />
 </main>
 <footer>
     <Footer title={config.TITLE} />

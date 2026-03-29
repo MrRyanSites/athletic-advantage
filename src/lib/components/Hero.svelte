@@ -1,7 +1,8 @@
 <script>
+    import heroImg from "$lib/assets/hero-img.jpg"
     const { title, cta } = $props();
 </script>
-<div id="home" class="relative flex items-center justify-center h-screen bg-cover bg-no-repeat bg-[url('https://png.pngtree.com/background/20230412/original/pngtree-football-field-night-background-picture-image_2399967.jpg')]">
+<div id="home" class="relative flex items-center justify-center h-screen bg-cover bg-no-repeat" style="background-image: url('{heroImg}');">
     <div>
         <h2 class="px-4 text-xl md:text-2xl lg:text-3xl text-white uppercase font-black">Join The</h2>
         <h1 class="px-4 text-4xl md:text-5xl lg:text-7xl font-black text-shadow-lg text-shadow-white text-black uppercase">{title}</h1>
