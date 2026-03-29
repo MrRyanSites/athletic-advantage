@@ -7,8 +7,6 @@
 </script>
 
 <svelte:head>
-	<!--DNS Preconnects-->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<!--SEO-->
 	<link rel="icon" href={favicon} />
 	<title>{config.TITLE}</title>
