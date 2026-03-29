@@ -5,6 +5,6 @@
     <!-- Spacer for nav bar -->
     <div class="h-3/16 md:h-1/9"></div>
     <div class="flex items-center justify-center w-full px-4 rounded h-15/16">
-        <iframe class="rounded-md h-full w-full" src={form} title="Contact Form"></iframe>
+        <iframe class="rounded-md h-3/4 w-full" src={form} title="Contact Form"></iframe>
     </div>
 </div>
