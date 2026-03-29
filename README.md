@@ -2,7 +2,7 @@
 Source code for Athletic Advantage's landing page
 
 ## Config
-Main config file is located in
+[Main config](https://github.com/MrRyanSites/athletic-advantage/blob/main/src/lib/config.js) file is located in
 ```
 ./src/lib/config.js
 ```

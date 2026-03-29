@@ -17,5 +17,5 @@
     <Contact />
 </main>
 <footer>
-    <Footer />
+    <Footer title={config.TITLE} />
 </footer>
