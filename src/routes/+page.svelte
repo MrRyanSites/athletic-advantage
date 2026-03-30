@@ -11,8 +11,8 @@
     <Navbar title={config.TITLE} />
 </nav>
 <main>
-    <Hero title={config.TITLE} cta={config.CTA} />
-    <Calendar calendar={config.GOOGLE_CALENDAR} />
+    <Hero title={config.TITLE} cta={config.CTA} description={config.DESCRIPTION} />
+    <Calendar calendar={config.GOOGLE_CALENDAR} calendarTitle={config.CALENDAR_TITLE} />
     <About aboutMessage={config.ABOUT_MESSAGE} aboutTitle={config.ABOUT_TITLE} />
     <Contact form={config.GOOGLE_FORM} />
 </main>

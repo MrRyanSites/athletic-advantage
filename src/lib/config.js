@@ -2,10 +2,11 @@
 export const config = {
     // General Config
     TITLE: "Athletic Advantage",
-    DESCRIPTION: "For Athletes, By Athletes",
+    DESCRIPTION: "Free tutoring and study for student athletes.",
     // Hero Section
     CTA: "Join Us",
     // Calendar Section
+    CALENDAR_TITLE: "Event Calendar",
     GOOGLE_CALENDAR: "https://calendar.google.com/calendar/embed?src=iframely.embeds%40gmail.com",
     // About section
     ABOUT_TITLE: "About Us",
