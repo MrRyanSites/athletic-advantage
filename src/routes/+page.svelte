@@ -14,7 +14,7 @@
     <Hero title={config.TITLE} cta={config.CTA} description={config.DESCRIPTION} />
     <Calendar calendar={config.GOOGLE_CALENDAR} calendarTitle={config.CALENDAR_TITLE} />
     <About aboutMessage={config.ABOUT_MESSAGE} aboutTitle={config.ABOUT_TITLE} />
-    <Contact form={config.GOOGLE_FORM} />
+    <Contact athleteForm={config.ATHLETE_FORM} tutorForm={config.TUTOR_FORM} />
 </main>
 <footer>
     <Footer title={config.TITLE} />
