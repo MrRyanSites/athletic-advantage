@@ -6,7 +6,6 @@ export const config = {
     // Hero Section
     CTA: "Join Us",
     // Calendar Section
-    CALENDAR_TITLE: "Event Calendar",
     GOOGLE_CALENDAR: "https://calendar.google.com/calendar/embed?src=iframely.embeds%40gmail.com",
     // About section
     ABOUT_TITLE: "About Us",
@@ -14,5 +13,8 @@ export const config = {
     // Contact section
     ATHLETE_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSeLYkyV8IY_FksvOpnTXgEiZtIAZ6FtRY3Anwlus1z4t-UOWQ/viewform?embedded=true",
     TUTOR_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSeLYkyV8IY_FksvOpnTXgEiZtIAZ6FtRY3Anwlus1z4t-UOWQ/viewform?embedded=true",
+    // Footer
+    INSTAGRAM: "https://example.com",
+    EMAIL: "hello@example.com"
 
 }

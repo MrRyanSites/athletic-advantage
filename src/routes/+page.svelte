@@ -12,10 +12,10 @@
 </nav>
 <main>
     <Hero title={config.TITLE} cta={config.CTA} description={config.DESCRIPTION} />
-    <Calendar calendar={config.GOOGLE_CALENDAR} calendarTitle={config.CALENDAR_TITLE} />
+    <Calendar calendar={config.GOOGLE_CALENDAR} />
     <About aboutMessage={config.ABOUT_MESSAGE} aboutTitle={config.ABOUT_TITLE} />
-    <Contact athleteForm={config.ATHLETE_FORM} tutorForm={config.TUTOR_FORM} />
+    <Contact athleteForm={config.ATHLETE_FORM} tutorForm={config.TUTOR_FORM} mail={config.EMAIL} />
 </main>
 <footer>
-    <Footer title={config.TITLE} />
+    <Footer title={config.TITLE} instagram={config.INSTAGRAM} email={config.EMAIL} />
 </footer>

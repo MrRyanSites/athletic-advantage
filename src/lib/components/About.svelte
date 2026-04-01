@@ -19,7 +19,7 @@
     <div class="flex items-center justify-center">
         <h1 class="text-3xl font-bold timeline-view animate-slide-in-right animate-range-entry">{aboutTitle}</h1>
     </div>
-    <div class="m-2 p-10 rounded-4xl bg-white/70 h-3/4 w-3/4 mx-auto overflow-auto timeline-view animate-slide-in-left animate-range-entry ">
+    <div class="m-2 p-10 rounded-4xl bg-white/70 h-3/4 w-3/4 mx-auto overflow-auto timeline-view animate-slide-in-left animate-range-[entry_5%_contain_50%] ">
         <p class="text-md md:text-xl font-mono font-light">{aboutMessage}</p>
     </div>
 </div>
