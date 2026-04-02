@@ -31,7 +31,7 @@
     <div class="flex flex-col items-center justify-center h-full inset-x-0 px-4 pb-8 rounded space-y-4">
         <h2 class="text-center text-lg md:text-xl text-gray-700">Your privacy settings have prevented this widget from loading automatically.</h2>
         <p class="text-center text-sm text-gray-600">We respect your Do Not Track preference. Click below to load the calendar if you wish.</p>
-        <button onclick={() => dnt = "0"} class="px-6 py-2 bg-teal-600 text-white rounded-md hover:bg-teal-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Load Calendar</button>
+        <button onclick={() => dnt = "0"} class="px-6 py-2 bg-teal-600 text-white rounded-md hover:bg-teal-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-teal-800 focus:ring-opacity-50">Load Calendar</button>
     </div>
     {/if}
 </div>
