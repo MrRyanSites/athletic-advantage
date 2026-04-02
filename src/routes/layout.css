@@ -3,7 +3,6 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
-html,
-body {
-	scroll-behavior: smooth;
+html, body {
+    scroll-behavior: smooth;
 }
