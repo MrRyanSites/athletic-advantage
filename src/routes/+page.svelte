@@ -8,7 +8,7 @@
     import { config } from "$lib/config";
 </script>
 <nav>
-    <Navbar title={config.TITLE} />
+    <Navbar title={config.TITLE} navs={config.MAINNAV} />
 </nav>
 <main>
     <Hero title={config.TITLE} cta={config.CTA} description={config.DESCRIPTION} />

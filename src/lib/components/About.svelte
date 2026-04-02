@@ -6,10 +6,12 @@
 
     onMount(() => {
         const about = document.getElementById('about');
-        about.style.backgroundImage = `url("${background}")`;
-        about.style.backgroundPosition = 'bottom';
-        about.style.backgroundRepeat = 'no-repeat';
-        about.style.backgroundSize = 'cover'; 
+        if (about) {
+            about.style.backgroundImage = `url("${background}")`;
+            about.style.backgroundPosition = 'bottom';
+            about.style.backgroundRepeat = 'no-repeat';
+            about.style.backgroundSize = 'cover'; 
+        }
     })
 </script>
 

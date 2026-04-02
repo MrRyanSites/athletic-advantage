@@ -3,6 +3,15 @@ export const config = {
     // General Config
     TITLE: "Athletic Advantage",
     DESCRIPTION: "Free tutoring and study for student athletes.",
+    // Navbar
+    MAINNAV: [
+        {title: "home", path: "/", id:"#top"},
+        {title: "about", path: "/", id:"#about"},
+        {title: "contact", path: "/", id: "#contact"},
+    ],
+    ERRORNAV: [
+        {title: "home", path: "/", id:"#top"},
+    ],
     // Hero Section
     CTA: "Join Us",
     // Calendar Section
