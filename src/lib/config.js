@@ -7,12 +7,12 @@ export const config = {
     URL: "https://athletic-advantage.pages.dev",
     // Navbar
     MAINNAV: [
-        {title: "home", path: "/", id:"#top"},
+        {title: "home", path: "/", id:"#home"},
         {title: "about", path: "/", id:"#about"},
         {title: "contact", path: "/", id: "#contact"},
     ],
     ERRORNAV: [
-        {title: "home", path: "/", id:"#top"},
+        {title: "home", path: "/", id:"#home"},
     ],
     // Hero Section
     CTA: "Join Us",
