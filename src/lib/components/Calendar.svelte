@@ -8,8 +8,16 @@
     let dnt = $state("1");
 
     onMount(() => {
-        // TODO: dnt is deprecated in favor of GPC
-        dnt = navigator.doNotTrack;
+        if (typeof navigator.globalPrivacyControl !== 'undefined') {
+            dnt = navigator.globalPrivacyControl ? "1" : "0";
+        }
+        else if(typeof navigator.doNotTrack !== 'undefined') {
+            dnt = navigator.doNotTrack;
+        }
+        else {
+            dnt = "0"
+        }
+         
     })
 </script>
 <div id="calendar" class="h-screen">
