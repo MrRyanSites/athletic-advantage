@@ -18,6 +18,6 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={config.URL} />
 	<meta property="og:image" content={img} />
-
+	<meta property="og:description" content={config.DESCRIPTION}>
 </svelte:head>
 {@render children()}

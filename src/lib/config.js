@@ -3,7 +3,7 @@ export const config = {
     // General Config
     TITLE: "Athletic Advantage",
     DESCRIPTION: "Free tutoring and study for student athletes.",
-    KEYWORDS: "Tutoring, Athletes",
+    KEYWORDS: "Tutoring, Athletes, Athletic, Advantage, Free",
     URL: "https://athletic-advantage.pages.dev",
     // Navbar
     MAINNAV: [

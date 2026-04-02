@@ -15,7 +15,7 @@
 </script>
 <div id="contact" class="min-h-screen bg-[#e5e5e5] flex flex-col items-center justify-center py-12">
     <div class="h-8"></div>
-    <h1 class="text-2xl md:text-4xl lg:text-5xl py-4 font-light">Email us at <strong>{mail}</strong> or:</h1>
+    <h2 class="text-2xl md:text-4xl lg:text-5xl py-4 font-light">Email us at <strong>{mail}</strong> or:</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl p-4">
         <div class="border-3 border-gray-300 rounded-2xl shadow-lg bg-white p-8 flex flex-col items-start timeline-view animate-slide-up-fade animate-range-[entry_5%_contain_75%] transition delay-100 duration-300 ease-in-out hover:shadow-xl hover:border-gray-50">
             <div class="bg-gray-200 p-2 my-2 rounded-lg">
